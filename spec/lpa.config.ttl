@@ -21,7 +21,7 @@
 # Prefix for PROV-O
 @prefix prov:				<http://www.w3.org/ns/prov#> .
 
-@ Prefix for Linked Provenance API
+# Prefix for Linked Provenance API
 @prefix lpa:				<http://www.tw.rpi.edu/vocabularies/lpa#> .
 
 # ---------------------------------------------------------------------
@@ -49,7 +49,11 @@ lpa:linked-provenance-api a api:API ;
 		lpa:collectionsEndpoint ,
 		lpa:bundlesEndpoint ,
 		lpa:entityEndpoint ,
+		lpa:entityRevisionsEndpoint ,
 		lpa:activityEndpoint ,
+		lpa:activityGeneratedEntitiesEndpoint ,
+		lpa:activityInformedActivitiesEndpoint ,
+		lpa:activityInvalidatedEntitiesEndpoint ,
 		lpa:agentEndpoint ,
 		lpa:personEndpoint ,
 		lpa:organizationEndpoint ,
